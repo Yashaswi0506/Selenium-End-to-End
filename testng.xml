@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="fname" value="abc"/>
+	<parameter name="lname" value="xyz"/>
+	<parameter name="zip" value="1234"/>
+  <test thread-count="1" name="Test">
+	<classes>
+		<!--class name ="com.Functionalty.VerifyHomePage"/>
+		<class name ="com.Functionalty.MyAccount"/-->
+		<class name ="com.Functionalty.EndToEnd"/>
+		
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
